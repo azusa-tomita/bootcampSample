@@ -1,0 +1,9 @@
+@import "../hoge";
+@import "bootcamp/_bootcamp";
+
+$bc-setting-verbose:  true;
+$bc-setting-warnings: true;
+
+@include runner-start;
+@import "specs/hoge";
+@include runner-end;

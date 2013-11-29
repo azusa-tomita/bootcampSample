@@ -1,0 +1,8 @@
+@function hoge($val){
+	@if type-of($val) == number {
+		$_divisor: $val * 0 + 1;
+		@return $val / $_divisor;
+	} @else {
+		@return false;
+	}
+}

@@ -1,0 +1,10 @@
+@include describe("hogeは") {
+    @include it("数値から単位を取り除く") {
+        @include should( expect( hoge(12px) ),  to( equal(12) )  );
+        @include should( expect( hoge(0.5em) ), to( equal(0.5) )  );
+    }
+    @include it("数値以外ならflaseを返す") {
+        @include should( expect( hoge(piyo) ),  to( be-falsy()));
+        @include should( expect( hoge(#ccc) ),  to( be-falsy()));
+    }
+}

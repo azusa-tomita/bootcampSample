@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* >> Bootcamp >> */
+hogeは 数値から単位を取り除く {
+  ✔: Expected 12 to equal 12;
+  ✔: Expected 0.5 to equal 0.5;
+  Test: Passed; }
+
+hogeは 数値以外ならflaseを返す {
+  ✔: Expected false to be 'falsy';
+  ✔: Expected false to be 'falsy';
+  Test: Passed; }
+
+Test Results {
+  Success: true;
+  Stats:  ✔ ✔;
+  Tests: 2;
+  Asserts: 4;
+  Passed: 2;
+  Failed: 0;
+  Skipped: 0; }
+
+/* << Bootcamp << */
